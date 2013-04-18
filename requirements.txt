@@ -1,5 +1,4 @@
 Django==1.5.1
 argparse==1.2.1
 distribute==0.6.24
--e git+git@github.com:mattions/neuronvisio.git@3882d9d52b09981be80cdb232ddc3bf87117833d#egg=neuronvisio-dev
 wsgiref==0.1.2
