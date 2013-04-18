@@ -1,9 +1,9 @@
 from django.db import models
-from django.contrib.auth.models import AbstractBaseUser
+from django.contrib.auth.models import AbstractUser
 
 # Create your models here.
 
-class CustomUser(AbstractBaseUser):
+class CustomUser(AbstractUser):
 
     date_of_birth = models.DateField()
     height = models.FloatField()
